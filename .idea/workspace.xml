@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="135854e7-7192-4d0c-8dd9-b1f35ec42b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/atomic-counters.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collection-functions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mutexes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/panic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting-by-functions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sorting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stateful-goroutines.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-formatting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string-functions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regular-expressions.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mutexes.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stateful-goroutines.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/string-formatting.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="900">
+              <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -122,10 +105,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrays.go">
+        <entry file="file://$PROJECT_DIR$/regular-expressions.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="357">
+              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/json.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -194,12 +192,14 @@
         <option value="$PROJECT_DIR$/collection-functions.go" />
         <option value="$PROJECT_DIR$/string-functions.go" />
         <option value="$PROJECT_DIR$/string-formatting.go" />
+        <option value="$PROJECT_DIR$/regular-expressions.go" />
+        <option value="$PROJECT_DIR$/json.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3200" />
-    <option name="y" value="-276" />
+    <option name="x" value="3065" />
+    <option name="y" value="-270" />
     <option name="width" value="1362" />
     <option name="height" value="994" />
   </component>
@@ -248,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build string-formatting.go">
+  <component name="RunManager" selected="Go Build.go build json.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="goByexample" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -268,20 +268,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build defer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build json.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goByexample" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/defer.go" />
+      <filePath value="$PROJECT_DIR$/json.go" />
       <package value="goByexample" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build panic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build regular-expressions.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="goByexample" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/panic.go" />
+      <filePath value="$PROJECT_DIR$/regular-expressions.go" />
       <package value="goByexample" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -317,16 +317,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build json.go" />
+        <item itemvalue="Go Build.go build regular-expressions.go" />
         <item itemvalue="Go Build.go build string-formatting.go" />
         <item itemvalue="Go Build.go build string-functions.go" />
         <item itemvalue="Go Build.go build collection-functions.go" />
-        <item itemvalue="Go Build.go build defer.go" />
-        <item itemvalue="Go Build.go build panic.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3200" y="-276" width="1362" height="994" extended-state="0" />
+    <frame x="3065" y="-270" width="1362" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16969697" />
@@ -334,7 +334,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24501109" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848485" visible="true" weight="0.36474502" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,8 +342,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32150775" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" weight="0.1962306" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50151515" side_tool="true" visible="true" weight="0.36474502" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -711,8 +711,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/string-formatting.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="900">
+          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regular-expressions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
